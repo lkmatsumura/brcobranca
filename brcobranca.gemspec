@@ -22,7 +22,7 @@ Gem::Specification.new do |gem|
   gem.required_ruby_version = '>= 1.9'
 
   # Gems that must be intalled for sift to work
-  gem.add_dependency 'rghost', '~> 0.9'
+  gem.add_dependency 'rghost', '< 0.9.9'
   gem.add_dependency 'rghost_barcode', '~> 0.9'
   gem.add_dependency 'parseline', '~> 1.0.3'
   gem.add_dependency 'unidecoder', '>= 1.1.2'
