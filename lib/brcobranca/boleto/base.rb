@@ -72,6 +72,10 @@ module Brcobranca
       attr_accessor :instrucao6
       # <b>OPCIONAL</b>: Utilizado para mostrar alguma informação ao caixa
       attr_accessor :instrucao7
+      # <b>OPCIONAL</b>: Utilizado para mostrar alguma informação ao caixa
+      attr_accessor :instrucao8
+      # <b>OPCIONAL</b>: Utilizado para mostrar alguma informação ao caixa
+      attr_accessor :instrucao9
       # <b>REQUERIDO</b>: Informação sobre onde o sacado podera efetuar o pagamento
       attr_accessor :local_pagamento
       # <b>REQUERIDO</b>: Informa se o banco deve aceitar o boleto após o vencimento ou não( S ou N, quase sempre S)
